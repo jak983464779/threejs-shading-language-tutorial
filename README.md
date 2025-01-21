@@ -2,7 +2,7 @@
 
 从今天 2025年01月21日 开始学习和探索 Three.js 着色器语言 TSL。
 
-<img src="https://raw.githubusercontent.com/puxiao/notes/master/imgs/wechat.jpg" style="zoom: 67%;" />
+<img src="https://raw.githubusercontent.com/puxiao/notes/master/imgs/wechat.jpg" width="500" height="292" />
 
 <br>
 
