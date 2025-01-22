@@ -541,6 +541,7 @@ const result = select( value.greaterThan( 1 ), 1.0, value );
 | any( x )                          | 如果 x 的任意一组成部分为真，则返回 true   |
 | asin( x )                         | 反正弦                                     |
 | atan( y, x )                      | 反正切                                     |
+| atan2( y, x )                     | 反正切                                     |
 | bitcast( x, y )                   | 将值的各个位重新解释为不同的类型。         |
 | cbrt( x )                         | 立方根                                     |
 | ceil( x )                         | 向上取整                                   |
@@ -1153,4 +1154,3 @@ material.colorNode = normalView.normalize();
 | projectionMatrix  | cameraProjectionMatrix | mat4 |
 | diffuseColor      | material.colorNode     | vec4 |
 | gl_FragColor      | material.fragmentNode  | vec4 |
-
