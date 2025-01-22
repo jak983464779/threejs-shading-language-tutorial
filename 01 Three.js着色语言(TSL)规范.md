@@ -959,7 +959,7 @@ const normalView = varying( modelNormalMatrix.mul( normalLocal ) );
 material.colorNode = normalView.normalize();
 ```
 
-`verying` 的第一个参数 `modelNormalMatrix.mul( normalLocal )` 将在顶点阶段执行，并且 `verying()` 返回的值将是可变的，因为我们在 WGSL/GLSL 中使用它，这可以优化片段阶段的额外计算。
+`varying` 的第一个参数 `modelNormalMatrix.mul( normalLocal )` 将在顶点阶段执行，并且 `varying()` 返回的值将是可变的，因为我们在 WGSL/GLSL 中使用它，这可以优化片段阶段的额外计算。
 
 第二个参数允许你为变量添加自定义名称。
 
@@ -967,7 +967,7 @@ material.colorNode = normalView.normalize();
 
 <br>
 
-如果 `verying()` 仅添加到 `.positionNode`，它将仅返回一个简单变量，而不会创建真正的变量。
+如果 `varying()` 仅添加到 `.positionNode`，它将仅返回一个简单变量，而不会创建真正的变量。
 
 > 译者注：用代码来解释上面这句话
 >
